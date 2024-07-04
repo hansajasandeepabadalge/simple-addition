@@ -5,6 +5,7 @@ b = int(input("Enter Your Second Number: "))
 
 #Adding Number by using User inputs
 
-answer = a + b
+def addition():
+    return a + b
 
-print("The Sum of the two numbers is:", answer)
+print("The Sum of the two numbers is:", addition())
